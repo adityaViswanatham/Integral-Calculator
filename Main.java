@@ -15,7 +15,7 @@ public class Main {
 	//openFile to open the file.
 	public static void openFile() {
 		try {
-			obj = new Scanner(new File("/Users/adityaviswanatham/Desktop/Second Year/CS 2336/CS 2336 Project 4/src/Paradox/integrals3.txt"));
+			obj = new Scanner(new File("filename.txt"));
 		}
 		catch(Exception e) {
 			e.printStackTrace();
