@@ -135,6 +135,7 @@ public class Main {
 				else if(the_list.get(k).equals("+x") || the_list.get(k).equals("x")) {
 					coeff = 1;
 					expo = 1;
+					bst.insert(expo, coeff);
 				}
 				else if(the_list.get(k).equals("^(\\+?x)")) {
 					coeff = 1;
